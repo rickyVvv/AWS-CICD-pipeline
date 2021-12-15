@@ -78,7 +78,7 @@ resource "aws_codepipeline" "cicd_pipeline" {
     }
 
     stage {
-        name ="Plan"
+        name ="Build"
         action{
             name = "Build"
             category = "Build"
